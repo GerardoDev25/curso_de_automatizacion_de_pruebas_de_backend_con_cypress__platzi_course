@@ -1,0 +1,24 @@
+{
+  "name": "curso-de-automatizacion-de-pruebas-de-backend-con-cypress",
+  "version": "0.0.1",
+  "description": "curso_de_automatizacion_de_pruebas_de_backend_con_cypress__platzi_course",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cypress open",
+    "run:server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerardoDev25/curso_de_automatizacion_de_pruebas_de_backend_con_cypress__platzi_course.git"
+  },
+  "author": "Gerardo Miranda <gerardodev25@gmail.com> (https://github.com/GerardoDev25)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GerardoDev25/curso_de_automatizacion_de_pruebas_de_backend_con_cypress__platzi_course/issues"
+  },
+  "homepage": "https://github.com/GerardoDev25/curso_de_automatizacion_de_pruebas_de_backend_con_cypress__platzi_course#readme",
+  "devDependencies": {
+    "cypress": "^12.1.0",
+    "json-server": "^0.17.1"
+  }
+}
